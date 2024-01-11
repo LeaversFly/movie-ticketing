@@ -1,0 +1,42 @@
+.feature {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+
+    h1 {
+        font-family: "Segoe UI Light";
+        color: #1f1f1f;
+        font-weight: bolder;
+        font-size: 70px;
+        line-height: 48pt;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    p,
+    h1 {
+        text-align: center;
+    }
+
+    .goDo {
+        color: #69798f;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    button {
+        width: 10%;
+        margin: 0 auto;
+        background: #54539f;
+        margin-top: 50px;
+        border-radius: 4px;
+        padding: 8px;
+        color: white;
+        font-weight: 500;
+    }
+}
