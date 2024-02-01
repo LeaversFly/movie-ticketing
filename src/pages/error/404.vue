@@ -11,4 +11,3 @@
 <style scoped lang="scss">
 @import '@/assets/styles/error.scss'
 </style>
-  

@@ -13,6 +13,9 @@ export default createVuetify({
         },
         VCard: {
             flat: true
+        },
+        VAppBar: {
+            flat: true
         }
     },
 })

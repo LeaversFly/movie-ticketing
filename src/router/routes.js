@@ -9,6 +9,9 @@ const routes = [
                 path: '/',
                 name: 'home',
                 component: () => import('@/pages/home/index.vue'),
+                meta: {
+                    keeplive: true
+                }
             }
         ]
     },
@@ -48,4 +51,4 @@ function addRoutes(router) {
     routes.forEach(m => router.addRoute(m))
 }
 
-export { routes, addRoutes }
+export {routes, addRoutes}
